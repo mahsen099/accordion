@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana Pro' !important;
+  }
+  .container{
+      margin-top: 1%;
+  }
+  .accordion-button:not(.collapsed) {
+      background-color:white !important;
+  }
+  .accordion-button:focus {
+    border-color: white !important;
+    box-shadow: none !important;
+}
+.accordion-item {
+    border: 1px solid #a2a2a2 !important;
+    margin-bottom: 20px;
+}
+.abtn{
+    color:#000 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+.accordion-button{
+    color:#000 !important;
+    font-weight: bold !important;
+    text-align: left !important;
+    text-decoration: none !important;
+}
+.abtn:after{
+    background-image: none !important;
+    content: '\2212'!important;
+    width: 35px !important;
+    font-size: 25px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top:11px;
+    position: absolute;
+}
+.abtn.collapsed:after{
+    content: '' !important;
+    background-image: url("../accordion/file/plus-circle.svg") !important;
+}
+.spaces{
+    margin: 4%;
+}
