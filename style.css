@@ -50,7 +50,7 @@
 .abtntwo:after{
     background-image: none !important;
     font-family: FontAwesome !important;
-    content: '\f077'!important;
+    content: '\f077';
     width: 35px !important;
     font-size: 18px;
     text-align: center;
@@ -61,4 +61,7 @@
 }
 .abtntwo.collapsed:after{
     content: '\f078' !important;
+}
+.accordion-button:not(.collapsed)::after {
+    transform: rotate(0deg);
 }
