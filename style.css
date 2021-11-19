@@ -31,9 +31,10 @@
 }
 .abtn:after{
     background-image: none !important;
-    content: '\2212'!important;
+    font-family: FontAwesome !important;
+    content: '\f056'!important;
     width: 35px !important;
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     border-radius: 5px;
     right: 15px;
@@ -41,9 +42,23 @@
     position: absolute;
 }
 .abtn.collapsed:after{
-    content: '' !important;
-    background-image: url("../accordion/file/plus-circle.svg") !important;
+    content: '\f055' !important;
 }
 .spaces{
     margin: 4%;
+}
+.abtntwo:after{
+    background-image: none !important;
+    font-family: FontAwesome !important;
+    content: '\f077'!important;
+    width: 35px !important;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 5px;
+    right: 15px;
+    top:11px;
+    position: absolute;
+}
+.abtntwo.collapsed:after{
+    content: '\f078' !important;
 }
